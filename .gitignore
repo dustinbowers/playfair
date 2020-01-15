@@ -1,0 +1,5 @@
+.idea
+venv/
+*.swp
+__pycache__/
+*.py[cod]
