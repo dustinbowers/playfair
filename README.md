@@ -6,6 +6,10 @@ A very basic implementation of Playfair ciphering/deciphering
 
 **Note:** Playfair ciphering is lossy; the deciphered plaintext will often not be a perfect match to the input
 
+### Usage
+
+`python playfair_cmd.py <passphrase> <plaintext>`
+
 ### Example
 ```
 python playfair_cmd.py lemon "attack at dawn"
