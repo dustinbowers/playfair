@@ -6,6 +6,15 @@ A very basic implementation of Playfair ciphering/deciphering
 
 **Note:** Playfair ciphering is lossy; the deciphered plaintext will often not be a perfect match to the input
 
+### Example
+```
+python playfair_cmd.py lemon "attack at dawn"
+key: lemon
+input: attack at dawn
+ciphertext: DQQDDIDQFBZE
+decoded : ATTACKATDAWN
+```
+
 ### Useful Links
 
 [https://en.wikipedia.org/wiki/Playfair_cipher](https://en.wikipedia.org/wiki/Playfair_cipher)
